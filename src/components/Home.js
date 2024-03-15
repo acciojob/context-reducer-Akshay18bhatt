@@ -8,7 +8,7 @@ import DisplayList from "./DisplayList";
 const Home= ()=>{
 
 
-    const [inputText, setInputText]= useState("");
+    const [inputText, setInputText]= useState("")
 
     const {info,setInfo,list,setList}= useContext(UserContext);
     const {isLogin,isAuthenticated}= info;
